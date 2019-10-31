@@ -1,0 +1,19 @@
+{
+  "name": "lexml-doc-ts",
+  "version": "1.0.0",
+  "description": "Typescript Types for LexML BR Docs.",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "npm run build -- -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lexml",
+    "typescript"
+  ],
+  "author": "João Rafael Moraes Nicola (jrafael@senado.leg.br)",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.4"
+  }
+}
